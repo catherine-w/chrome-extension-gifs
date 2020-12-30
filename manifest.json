@@ -1,0 +1,14 @@
+{
+    "name": "laughs",
+    "description" : "roulette for funny pictures and motivation!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {"128": "icon_128.png"},
+    "browser_action":         
+                {
+                "default_popup": "popup.html",
+                "default_icon": "icon_19.png"
+                },
+    "permissions": ["activeTab"],
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js; object-src 'self'"
+  }
